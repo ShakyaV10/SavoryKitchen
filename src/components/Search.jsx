@@ -30,11 +30,11 @@ const FormStyle = styled.form`
     margin: 0rem 2rem;
     
     div {
-        width: 100%;
+        width: min(550px, 100%);
         position: relative;
+        margin: 0 auto;
     }
     input {
-        border: none;
         background: linear-gradient(35deg, #494949, #313131);
         font-size: 1rem;
         color: white;
